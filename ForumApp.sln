@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumApp", "ForumApp\ForumApp.csproj", "{D1F4ABEE-9F56-4230-808E-C3C270472FC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{523B8E91-D140-4CEA-9F60-87E10620E70E} = {523B8E91-D140-4CEA-9F60-87E10620E70E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumApp.Core", "Core\ForumApp.Core.csproj", "{523B8E91-D140-4CEA-9F60-87E10620E70E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{851FE88D-2875-4E3E-8831-DF4D50CC8DAD} = {851FE88D-2875-4E3E-8831-DF4D50CC8DAD}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumApp.Infrastructure", "Infrastructure\ForumApp.Infrastructure.csproj", "{851FE88D-2875-4E3E-8831-DF4D50CC8DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1F4ABEE-9F56-4230-808E-C3C270472FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F4ABEE-9F56-4230-808E-C3C270472FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F4ABEE-9F56-4230-808E-C3C270472FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F4ABEE-9F56-4230-808E-C3C270472FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523B8E91-D140-4CEA-9F60-87E10620E70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523B8E91-D140-4CEA-9F60-87E10620E70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523B8E91-D140-4CEA-9F60-87E10620E70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523B8E91-D140-4CEA-9F60-87E10620E70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851FE88D-2875-4E3E-8831-DF4D50CC8DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851FE88D-2875-4E3E-8831-DF4D50CC8DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851FE88D-2875-4E3E-8831-DF4D50CC8DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851FE88D-2875-4E3E-8831-DF4D50CC8DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2EDD55A-06C1-4D57-A5D3-03E59D402BA2}
+	EndGlobalSection
+EndGlobal
