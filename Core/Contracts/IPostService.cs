@@ -1,4 +1,5 @@
 ﻿using ForumApp.Core.Models;
+using Infrastructure.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,10 @@ namespace ForumApp.Core.Contracts
 {
 	public interface IPostService
 	{
-		Task<IEnumerable<PostModel>> GetAllPostsAsync();
-	}
+        Task AddAsync(PostModel post);
+        Task DeleteAsync(int id);
+        Task<IEnumerable<PostModel>> GetAllPostsAsync();
+        Task<PostModel> GetByIdAsync(int id);
+        Task UpdatePostAsync(int id, PostModel model);
+    }
 }
